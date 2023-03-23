@@ -18,6 +18,18 @@ yarn dev
 
 to run the demo
 
+```bash
+yarn build
+```
+
+To build a package
+
+```bash
+yarn start
+```
+
+To run the package
+
 ## Run Jest Tests
 
 ```bash

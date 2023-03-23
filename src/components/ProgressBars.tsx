@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from "react";
-import { ProgressBar } from "./ProgressBar";
-import { ControlButton } from "./style";
+import { ProgressBar } from "./ProgressBar/ProgressBar";
+import { ControlButton } from "./ProgressBar/style";
 
 const INITIAL_STATE = {
   "0": 25,

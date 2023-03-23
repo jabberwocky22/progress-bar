@@ -1,4 +1,4 @@
-import { ProgressBars } from "@/components/ProgressBar";
+import { ProgressBars } from "@/components";
 import { StyledHome } from "@/styles/globalStyles";
 
 export default function Home() {

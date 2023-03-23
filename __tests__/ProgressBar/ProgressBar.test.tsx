@@ -1,8 +1,7 @@
 import React from "react";
 import { render, screen, fireEvent, getByText } from "@testing-library/react";
 import { ProgressBar } from "@/components/ProgressBar";
-import { ProgressBars } from "@/components/ProgressBar";
-import { flushSync } from "react-dom";
+import { ProgressBars } from "@/components";
 
 describe("ProgressBar", () => {
   test("renders a progress bar with the correct percentage", () => {
