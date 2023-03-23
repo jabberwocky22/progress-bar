@@ -6,10 +6,21 @@ type ProgressBarFillType = {
 
 export const Bar = styled.div`
   position: relative;
-  width: 400px;
   height: 50px;
   border: solid 1px grey;
   margin: 10px 0;
+  @media (min-width: 320px) {
+    width: 310px;
+  }
+  @media (min-width: 375px) {
+    width: 350px;
+  }
+  @media (min-width: 425px) {
+    width: 376px;
+  }
+  @media (min-width: 426px) {
+    width: 425px;
+  }
 `;
 export const ProgressBarFill = styled.div`
   display: block;
